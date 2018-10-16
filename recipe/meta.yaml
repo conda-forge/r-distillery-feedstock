@@ -15,7 +15,7 @@ source:
   sha256: 3d3a8445471b19a6b652761ca783994b2d2108b64ff539b0597a9db9697d17d4
 
 build:
-  number: 0
+  number: 1
   script: R CMD INSTALL --build .
   skip: True  # [win32]
   rpaths:
@@ -46,4 +46,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - dpryan79
     - jsignell
