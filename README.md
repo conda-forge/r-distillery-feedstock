@@ -15,10 +15,11 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1084&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-distillery-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
 </table>
@@ -115,6 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@dpryan79](https://github.com/dpryan79/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@jsignell](https://github.com/jsignell/)
 
