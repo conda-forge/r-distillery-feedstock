@@ -1,4 +1,4 @@
-{% set version = "1.0-7" %}
+{% set version = "1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/distillery_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/distillery/distillery_{{ version }}.tar.gz
-  sha256: 898833ceceed5291b4a02bf62c6fa5b78dd7837f9cc5a42b87a08672c7dae270
+  sha256: f0af03634a05a8be3f7b5af94d40bbe59bb32f9a1a1cbe77ee74576e1edc1097
 
 build:
   merge_build_host: true  # [win]
   noarch: generic
-  number: 1
+  number: 0
   script: R CMD INSTALL --build .
   rpaths:
     - lib/R/lib/
@@ -37,8 +37,7 @@ test:
 about:
   home: http://www.ral.ucar.edu/staff/ericg
   license: GPL (>= 2)
-  summary: Some very simple method functions for confidence interval calculation, bootstrap resampling, and to distill pertinent information from a potentially complex
-    object; primarily used in common with packages extRemes and SpatialVx.
+  summary: Some very simple method functions for confidence interval calculation, bootstrap resampling, and to distill pertinent information from a potentially complex object; primarily used in common with packages extRemes and SpatialVx.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 

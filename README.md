@@ -5,7 +5,7 @@ Home: http://www.ral.ucar.edu/staff/ericg
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Some very simple method functions for confidence interval calculation, bootstrap resampling, and to distill pertinent information from a potentially complex object; primarily used in common with packages extRemes and SpatialVx.
 
