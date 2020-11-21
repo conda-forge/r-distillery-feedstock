@@ -1,4 +1,4 @@
-{% set version = "1.1" %}
+{% set version = "1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/distillery_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/distillery/distillery_{{ version }}.tar.gz
-  sha256: f0af03634a05a8be3f7b5af94d40bbe59bb32f9a1a1cbe77ee74576e1edc1097
+  sha256: 1eb129b019b5fe9a4599c3e902ecc222c7aa3ff0602b45ee25495c086e82d082
 
 build:
   merge_build_host: true  # [win]
