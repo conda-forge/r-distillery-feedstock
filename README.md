@@ -5,11 +5,9 @@ Home: http://www.ral.ucar.edu/staff/ericg
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-distillery-feedstock/blob/master/LICENSE.txt)
 
 Summary: Some very simple method functions for confidence interval calculation, bootstrap resampling, and to distill pertinent information from a potentially complex object; primarily used in common with packages extRemes and SpatialVx.
-
-
 
 Current build status
 ====================
