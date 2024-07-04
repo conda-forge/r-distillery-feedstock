@@ -1,6 +1,5 @@
 {% set version = "1.2-1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-distillery
@@ -13,9 +12,8 @@ source:
   sha256: 4b88f0b34e472b9134ad403fb32283424f1883a5943e52c55f1fe05995efb5fa
 
 build:
-  merge_build_host: true  # [win]
   noarch: generic
-  number: 2
+  number: 3
   script: R CMD INSTALL --build .
   rpaths:
     - lib/R/lib/
